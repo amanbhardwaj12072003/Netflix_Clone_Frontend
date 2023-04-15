@@ -1,6 +1,6 @@
 import { ArrowDropDown, Notifications, Search } from "@material-ui/icons";
 import "./navbar.scss";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
